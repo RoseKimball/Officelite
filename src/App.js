@@ -1,8 +1,11 @@
 import React from 'react';
+import GettingStarted from './containers/gettingStarted/GettingStarted';
+
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App relative">
+      <GettingStarted />
     </div>
   );
 }
@@ -19,5 +22,28 @@ The Name and/or Email Address fields are empty
 The Email Address is not formatted correctly
 Bonus: See a live countdown timer that ticks down every second
 Bonus: See a custom-styled select form control in the sign-up form
+
+Get Started
+  -background pattern
+  -logo
+  -illustrations
+
+  -header
+  -paragraph
+  -button
+
+-subscription
+  -sub cards
+    -title
+    -price
+    -description
+    -button
+
+-footer
+  -bg pattern
+  -header
+  -countdown
+    -countdown cards
+  -button
 
 */
